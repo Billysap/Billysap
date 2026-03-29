@@ -1,215 +1,130 @@
-<p align="center">
-  <img src="logo.png" alt="SantAI Logo" width="300"/>
-</p>
+<div align="center">
 
-# SantAI - AI Financial Assistant for Debt Management
+# Billy Saputra
 
-[![Meta Llama](https://img.shields.io/badge/Meta-Llama-FF6B35?style=for-the-badge&logo=meta&logoColor=white)](https://llama.meta.com/)
-[![Groq](https://img.shields.io/badge/Groq-00A67E?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+**Data Scientist & ML Engineer**
 
-SantAI is an empathetic AI-powered financial assistant designed to help Indonesian borrowers navigate debt challenges safely and calmly. By leveraging official OJK (Otoritas Jasa Keuangan) regulations and real-time AI analysis, SantAI provides immediate clarity on loan legality and personalized guidance for debt management.
+M.S. Data Analytics Engineering · Northeastern University, Seattle
+&nbsp;·&nbsp; 10+ years in fintech, financial regulation & AI strategy across Southeast Asia
 
-## 🚀 Key Features
+📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 🟢 **Open to Summer 2026 Data Science Internship**
 
-- **🔍 Legal Status Verification**: Instantly checks if lenders are registered with OJK or operate illegally
-- **💬 Empathetic Counseling**: Provides calm, non-judgmental guidance to reduce financial stress
-- **📊 Financial Health Analysis**: Calculates debt-to-income ratios and assesses repayment capacity
-- **🛡️ Safety-First Approach**: Cites official regulatory documents for trustworthy advice
-- **🔒 Privacy-Focused**: All conversations are confidential and user data is handled securely
-- **🌐 Multi-Platform Ready**: Built on Streamlit for easy web deployment with WhatsApp integration potential
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bilsap-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
+[![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
 
-## 🏗️ How It Works
+</div>
 
-SantAI combines regulatory intelligence with AI-powered analysis:
+---
 
-1. **User Onboarding**: Collects user profile and loan details through conversational interface
-2. **Regulatory Matching**: Cross-references lender information with OJK's official database
-3. **Legal Status Determination**: Identifies legitimate vs. illegal lending operations
-4. **Personalized Analysis**: Provides tailored advice based on financial situation and loan legality
-5. **Actionable Guidance**: Offers clear next steps for both legal and illegal loan scenarios
+## About me
 
-## 📦 Installation
+I build end-to-end ML systems that solve real financial problems. At Ajaib Group, I built a CatBoost model on severely imbalanced user behavior data that could cut customer acquisition cost by 70% and double qualified trading leads from 15% to 30% — presented directly to the CTO. Before that, 10 years shaping Indonesia's fintech regulatory landscape at OJK and AFTECH. Now at Northeastern, deepening that work with machine learning, NLP, and scalable data engineering.
 
-### Prerequisites
+I care about **PR-AUC over ROC-AUC** when it matters, **business outcomes over model metrics**, and shipping things that actually get used.
 
-- Python 3.8+
-- Groq API key ([Get one here](https://console.groq.com/))
-- OJK regulatory data file (Updated regularly)
+---
 
-### Setup
+## Featured projects
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/santai.git
-cd santai
-```
+### 🏆 US Stock First-Trade Prediction *(Ajaib Group, Dec 2025)*
+> CatBoost classification model on severely imbalanced financial user behavior data to predict first-time US stock traders.
 
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+**Result: 0.71 PR-AUC · 0.95 Recall · potential 70% reduction in CAC · 2x qualified trading leads (15% → 30%)**
 
-3. **Set up environment variables**
-```bash
-cp .env.example .env
-# Add your Groq API key to .env
-GROQ_API_KEY=your_groq_api_key_here
-```
+Prioritized PR-AUC over ROC-AUC (0.90) as the primary metric given class imbalance. Applied SMOTE + threshold optimization. Findings presented directly to the CTO and data team.
 
-4. **Prepare regulatory data**
-```bash
-mkdir data
-# Place your OJK regulatory file as data/peraturan.txt
-```
+`Python` `CatBoost` `SMOTE` `SQL` `Scikit-learn` `Pandas`
 
-5. **Run the application**
-```bash
-streamlit run santai.py
-```
+---
 
-## 🛠️ Technical Architecture
+### ScandidAI — AI-Powered Resume Screening *(Aug 2025)*
+> End-to-end recruitment assistant using BERT Sentence Transformer + Groq LLaMA to rank candidates by resume–JD similarity.
 
-### Core Components
+NLP pipeline with semantic similarity scoring, AI-powered candidate ranking, deployed via Streamlit.
 
-- **AI Engine**: Groq-powered LLaMA 3.1 8B Instant for fast, intelligent responses
-- **Knowledge Base**: FAISS vector store with OJK regulatory documents
-- **Embeddings**: HuggingFace Sentence Transformers for semantic search
-- **Web Interface**: Streamlit for responsive, user-friendly experience
-- **Data Processing**: Custom text splitting and similarity matching algorithms
+`Python` `BERT` `Groq LLaMA` `Streamlit` `PDFMiner` `Scikit-learn`
 
-### Key Dependencies
+---
 
-```python
-streamlit>=1.28.0
-langchain-groq>=0.1.0
-langchain>=0.1.0
-faiss-cpu>=1.7.0
-sentence-transformers>=2.2.0
-python-Levenshtein>=0.25.0
-python-dotenv>=1.0.0
-```
+### Customer Churn ETL & Dashboard — Banking *(Aug 2025)*
+> Automated ETL pipeline with Airflow to extract, clean, and validate churn data, then load into Elasticsearch for Kibana visualization.
 
-## 📁 Project Structure
+Production-ready pipeline with Great Expectations data validation. Enables business team to track churn drivers in real time.
 
-```
-santai/
-├── santai.py                # Main application file
-├── data/
-│   └── peraturan.txt        # OJK regulatory documents
-├── logo.png                 # Application logo
-├── requirements.txt         # Python dependencies
-├── .env                     # Environment for Groq API key (gitignored)
-└── README.md                # This file
-```
+`Python` `Airflow` `PostgreSQL` `Great Expectations` `Elasticsearch` `Kibana`
 
-## 🎯 Business Model
+---
 
-### Value Proposition
+### Credit Card Default Prediction *(Jul 2025)*
+> ML pipeline to predict defaults among young customers (25–35 y.o.), deployed as a real-time Streamlit app.
 
-**For Borrowers:**
-- Immediate clarity on loan legality and risks
-- Empathetic guidance to reduce stress and prevent harmful decisions
-- Actionable steps for dealing with both legal and illegal lenders
-- Connections to trusted financial institutions for safe solutions
+SMOTENC to handle class imbalance + GridSearchCV tuning. Final KNN model deployed for real-time inference.
 
-**For Regulators:**
-- Citizen-facing tool that strengthens enforcement against illegal lenders
-- Improved reporting and data collection on illegal lending activities
-- Public education platform for financial literacy
+`Python` `XGBoost` `SMOTENC` `KNN` `GridSearchCV` `Streamlit` `Pickle`
 
-### Revenue Streams
+---
 
-- **Referral Partnerships**: Fees from licensed financial institutions for debt consolidation referrals
-- **CSR Funding**: Sponsorships from NGOs and development agencies
-- **Premium Services**: Advanced financial consultation and legal support
-- **Educational Partnerships**: Financial literacy programs and workshops
+### Walmart Sales Report & Strategy — Texas USA 2019–2023 *(Jun 2025)*
+> EDA and inferential statistics on 5 years of Walmart Texas sales data to uncover revenue drivers and branch performance.
 
-## 🌟 Why SantAI?
+Interactive Tableau dashboard for strategic decision-making. Scipy + Statsmodels for hypothesis testing.
 
-### Problem Being Solved
+`Python` `Pandas` `Scipy` `Statsmodels` `Seaborn` `Tableau Public`
 
-Indonesia faces a significant challenge with illegal online lenders (pinjol ilegal) that use aggressive collection tactics and charge predatory interest rates. Many borrowers lack access to reliable information about lender legitimacy and proper debt management guidance.
+---
 
-### Our Solution
+### SantAI — AI Financial Assistant for Debt Management *(2025)*
+> AI-powered assistant helping Indonesian borrowers verify loan legality against official OJK regulations.
 
-SantAI bridges this gap by providing:
-- **Instant Verification**: Real-time checking against OJK's official records
-- **Psychological Safety**: Empathetic tone reduces shame and stress
-- **Regulatory Compliance**: Always cites official sources and procedures
-- **Accessibility**: Free, available 24/7 without judgment
+FAISS vector store + LLaMA 3.1 for real-time regulatory guidance. Reduces financial stress for borrowers facing illegal lenders.
 
-## 🤝 Partnerships & Collaboration
+`LangChain` `FAISS` `Groq LLaMA` `HuggingFace` `Streamlit`
 
-We welcome partnerships with:
-- **Regulatory Bodies**: OJK, Satgas PASTI for data validation
-- **Financial Institutions**: Licensed lenders for safe refinancing options
-- **NGOs & Consumer Protection Groups**: Awareness campaigns and outreach
-- **Academic Institutions**: Research collaboration and validation studies
+---
 
-## 🔒 Privacy & Security
+## Tech stack
 
-- **Data Minimization**: Only collect essential information needed for analysis
-- **Local Processing**: Sensitive data processed locally when possible
-- **Transparent Operations**: Clear privacy policy and data handling practices
-- **Regulatory Compliance**: Adherence to Indonesian financial data protection laws
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
-## 🚀 Future Roadmap
+**Machine Learning & NLP**
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logoColor=white)
+![BERT](https://img.shields.io/badge/BERT-4285F4?style=flat&logo=google&logoColor=white)
+![LLaMA](https://img.shields.io/badge/LLaMA-0467DF?style=flat&logo=meta&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
 
-- [ ] WhatsApp chatbot integration for broader accessibility
-- [ ] Mobile app development (iOS/Android)
-- [ ] Advanced financial planning tools
-- [ ] Multi-language support (English, local languages)
-- [ ] Integration with financial management APIs
-- [ ] Real-time regulatory updates directly from OJK
+**Data Engineering & Visualization**
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
-## 👥 Contributing
+**Deployment**
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
-We welcome contributions from developers, financial experts, and community advocates. Please contact us for more details.
+---
 
-### Areas for Contribution
-- Regulatory data collection and validation
-- UI/UX improvements for better user experience
-- Additional language support
-- Integration with financial APIs
-- Documentation and translation
+## Background
 
-## 📄 License
+Before data science, I spent 10 years building Indonesia's fintech infrastructure:
 
-This project is built using Meta's Llama models and is subject to the [Llama Community License](https://llama.meta.com/llama3/license/). 
+- **OJK (Indonesia Financial Services Authority)** — Data & Policy Analyst, building data governance frameworks and Scopus-indexed research on digital transformation in financial services (2016–2024)
+- **AFTECH (Indonesia Fintech Association)** — Policy Analytics & Research Lead, data-driven research on fintech compliance and personal data protection (2024)
+- **BrainTip AI** — AI Strategy Lead, designed a full-stack AI monitoring system for Indonesia's national school nutrition program, validated by UNICEF (2025)
 
-**Key restrictions include:**
-- Commercial use limited to services with fewer than 700 million monthly active users
-- Required attribution to Meta
-- Prohibition on certain illegal or harmful uses
-- Compliance with applicable laws and regulations
-
-Please review the full license terms before using, modifying, or distributing this software.
-
-## 📞 Support & Contact
-
-For technical support, partnership inquiries, or regulatory collaboration:
-- **Email**: ladityarsa.ian@gmail.com ; bilsap99@gmail.com
-- **Issues**: [GitHub Issues](https://github.com/IanKuzuma/SantAI/issues)
-- **Documentation**: [Project Wiki](https://github.com/IanKuzuma/SantAI/wiki)
-
-## 🙏 Acknowledgments
-
-- **OJK (Otoritas Jasa Keuangan)** for regulatory guidance and oversight
-- **Meta** for the Llama language models that power our AI capabilities
-- **Groq** for high-performance AI inference capabilities
-- **Hugging Face** for open-source AI models and embeddings
-- **Streamlit** for rapid web application development
-- **Satgas PASTI** for their work combating illegal online lending
+That domain depth is what makes my ML work different. I don't just build models — I understand the regulatory, behavioral, and business context behind the data.
 
 ---
 
 <div align="center">
-  
-*SantAI - Making financial guidance accessible, empathetic, and safe for every Indonesian borrower*
 
-**"Tenang, Aman, dan Tidak Panik"** - Calm, Safe, and Don't Panic
+📬 **Let's connect** — I'm actively looking for Summer 2026 Data Science internship opportunities in the US.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
+[![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
 
 </div>
