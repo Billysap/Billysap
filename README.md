@@ -7,7 +7,6 @@
 📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bilsap-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
-[![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
 [![GitHub](https://img.shields.io/badge/GitHub-Billysap-181717?style=flat&logo=github&logoColor=white)](https://github.com/Billysap)
 
 </div>
