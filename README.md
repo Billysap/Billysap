@@ -15,7 +15,7 @@
 
 ## About me
 
-Data scientist specializing in ML, real-world financial data classification models, NLP, and anomaly detection on imbalanced datasets. Currently doing my M.S. in Data Analytics Engineering at Northeastern University Seattle, with 10 years of prior experience in fintech regulation and digital transformation across Southeast Asia. At Ajaib Group, a CatBoost model I built showed potential to cut customer acquisition cost by 70% and double qualified trading leads findings, I presented directly to the CTO. I am looking for a Data Science internship where technical depth meets real business problems.
+Data scientist specializing in ML, real-world financial data classification models, NLP, and anomaly detection on imbalanced datasets. Currently doing my M.S. in Data Analytics Engineering at Northeastern University Seattle, with 10 years of prior experience in fintech regulation and digital transformation across Southeast Asia. At Ajaib Group, a CatBoost model I built showed potential to cut customer acquisition cost by 70% and double qualified trading leads findings, I presented directly to the CTO. I am looking for a Data Science Internship (Fall 2026 or Spring 2027) where technical depth meets real business problems.
 
 ---
 
