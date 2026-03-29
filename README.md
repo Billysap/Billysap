@@ -2,17 +2,13 @@
 
 # Billy Saputra
 
-**Data Scientist & ML Engineer**
+**Data Scientist & ML Engineer | Fintech & Financial Services | M.S. in Data Analytics Engineering @ Northeastern University**
 
-M.S. Data Analytics Engineering · Northeastern University, Seattle
-&nbsp;·&nbsp; 10+ years in fintech, financial regulation & AI strategy across Southeast Asia
-
-🟢 **Open to Fall 2026 / Spring 2027 Data Science Internship**
+📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bilsap-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
 [![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
-
-📍 Seattle, WA &nbsp;·&nbsp; 
+[![GitHub](https://img.shields.io/badge/GitHub-Billysap-181717?style=flat&logo=github&logoColor=white)](https://github.com/Billysap)
 
 </div>
 
@@ -20,77 +16,85 @@ M.S. Data Analytics Engineering · Northeastern University, Seattle
 
 ## About me
 
-I build end-to-end ML systems that solve real financial problems. At Ajaib Group, I built a CatBoost model on severely imbalanced user behavior data that could cut customer acquisition cost by 70% and double qualified trading leads from 15% to 30% — presented directly to the CTO. Before that, 10 years shaping Indonesia's fintech regulatory landscape at OJK and AFTECH. Now at Northeastern, deepening that work with machine learning, NLP, and scalable data engineering.
-
-I care about **PR-AUC over ROC-AUC** when it matters, **business outcomes over model metrics**, and shipping things that actually get used.
+Data scientist specializing in ML on messy, real-world financial data — classification models, NLP, and anomaly detection on imbalanced datasets. Currently doing my M.S. in Data Analytics Engineering at Northeastern University Seattle, with 10 years of prior experience in fintech regulation and digital transformation across Southeast Asia. At Ajaib Group, a CatBoost model I built showed potential to cut customer acquisition cost by 70% and double qualified trading leads — findings I presented directly to the CTO. I am looking for a Data Science internship where technical depth meets real business problems.
 
 ---
 
-## Featured projects
+## Featured Projects
 
-### 🏆 US Stock First-Trade Prediction *(Ajaib Group, Dec 2025)*
-> CatBoost classification model on severely imbalanced financial user behavior data to predict first-time US stock traders.
+### 🏆 US Stock First-Trade Prediction
+**Ajaib Group · Dec 2025**
 
-**Result: 0.71 PR-AUC · 0.95 Recall · potential 70% reduction in CAC · 2x qualified trading leads (15% → 30%)**
+Built a production-ready CatBoost classification pipeline to predict first-time US stock traders from severely imbalanced user behavior data (millions of records). Chose PR-AUC as the primary evaluation metric over ROC-AUC given the extreme class imbalance in financial user behavior data — a deliberate modeling decision, not a default.
 
-Prioritized PR-AUC over ROC-AUC (0.90) as the primary metric given class imbalance. Applied SMOTE + threshold optimization. Findings presented directly to the CTO and data team.
+**Business impact:** Potential to cut customer acquisition cost by 70% and double qualified trading leads from 15% to 30%.
 
-`Python` `CatBoost` `SMOTE` `SQL` `Scikit-learn` `Pandas`
+**Model performance:** 0.71 PR-AUC (vs ~0.15 random baseline) · 0.95 Recall · 0.90 ROC-AUC
+
+**What I built:**
+- End-to-end ML pipeline with feature engineering on user flow, payment, and US stock market datasets
+- SMOTE for handling class imbalance combined with threshold optimization for business-tuned recall
+- EDA that identified 2 redundant onboarding fields whose removal reduced user drop-off rate
+- Findings presented directly to the CTO and data team
+
+`Python` `CatBoost` `SMOTE` `Scikit-learn` `Pandas` `SQL` `EDA` `Threshold Optimization`
 
 ---
 
-### ScandidAI — AI-Powered Resume Screening *(Aug 2025)*
-> End-to-end recruitment assistant using BERT Sentence Transformer + Groq LLaMA to rank candidates by resume–JD similarity.
+### ScandidAI — AI-Powered Resume Screening
+**Aug 2025**
 
-NLP pipeline with semantic similarity scoring, AI-powered candidate ranking, deployed via Streamlit.
+End-to-end recruitment assistant using BERT Sentence Transformer and Groq LLaMA to evaluate resume-job description similarity and provide AI-powered candidate ranking. Deployed as a Streamlit web app.
 
-`Python` `BERT` `Groq LLaMA` `Streamlit` `PDFMiner` `Scikit-learn`
+`Python` `BERT` `Groq LLaMA API` `Streamlit` `PDFMiner` `Scikit-learn` `NLP`
 
 ---
 
-### Customer Churn ETL & Dashboard — Banking *(Aug 2025)*
-> Automated ETL pipeline with Airflow to extract, clean, and validate churn data, then load into Elasticsearch for Kibana visualization.
+### Customer Churn ETL and Dashboard — Banking Industry
+**Aug 2025**
 
-Production-ready pipeline with Great Expectations data validation. Enables business team to track churn drivers in real time.
+Automated ETL pipeline using Airflow to extract, clean, and validate churn data (Great Expectations), then load into Elasticsearch for Kibana visualization. Enables business teams to identify churn drivers and retention strategies in real time.
 
 `Python` `Airflow` `PostgreSQL` `Great Expectations` `Elasticsearch` `Kibana`
 
 ---
 
-### Credit Card Default Prediction *(Jul 2025)*
-> ML pipeline to predict defaults among young customers (25–35 y.o.), deployed as a real-time Streamlit app.
+### Credit Card Default Prediction
+**Jul 2025**
 
-SMOTENC to handle class imbalance + GridSearchCV tuning. Final KNN model deployed for real-time inference.
+ML pipeline using SMOTENC and supervised models to predict defaults among young customers (25-35 y.o.), tuned with GridSearchCV. Final KNN model deployed via Streamlit for real-time inference.
 
-`Python` `XGBoost` `SMOTENC` `KNN` `GridSearchCV` `Streamlit` `Pickle`
-
----
-
-### Walmart Sales Report & Strategy — Texas USA 2019–2023 *(Jun 2025)*
-> EDA and inferential statistics on 5 years of Walmart Texas sales data to uncover revenue drivers and branch performance.
-
-Interactive Tableau dashboard for strategic decision-making. Scipy + Statsmodels for hypothesis testing.
-
-`Python` `Pandas` `Scipy` `Statsmodels` `Seaborn` `Tableau Public`
+`Python` `XGBoost` `KNN` `SMOTENC` `GridSearchCV` `Streamlit` `Scikit-learn` `Pickle`
 
 ---
 
-### SantAI — AI Financial Assistant for Debt Management *(2025)*
-> AI-powered assistant helping Indonesian borrowers verify loan legality against official OJK regulations.
+### Walmart Sales Report and Strategy — Texas USA 2019-2023
+**Jun 2025**
 
-FAISS vector store + LLaMA 3.1 for real-time regulatory guidance. Reduces financial stress for borrowers facing illegal lenders.
+EDA and inferential statistics on 5 years of Walmart Texas sales data to uncover revenue drivers, evaluate branch and city performance, and build an interactive Tableau dashboard for strategic decision-making.
 
-`LangChain` `FAISS` `Groq LLaMA` `HuggingFace` `Streamlit`
+`Python` `Pandas` `Scipy` `Statsmodels` `Seaborn` `Matplotlib` `Tableau Public`
 
 ---
 
-## Tech stack
+### SantAI — AI Financial Assistant for Debt Management
+**2025**
+
+AI-powered assistant helping Indonesian borrowers verify lender legitimacy against official OJK regulations. Uses FAISS vector store with OJK regulatory documents and LLaMA 3.1 for real-time, empathetic guidance.
+
+`LangChain` `FAISS` `Groq LLaMA` `HuggingFace Sentence Transformers` `Streamlit` `Python`
+
+---
+
+## Tech Stack
 
 **Languages**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
-**Machine Learning & NLP**
+**Machine Learning and NLP**
+
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat&logoColor=black)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logoColor=white)
@@ -98,7 +102,8 @@ FAISS vector store + LLaMA 3.1 for real-time regulatory guidance. Reduces financ
 ![LLaMA](https://img.shields.io/badge/LLaMA-0467DF?style=flat&logo=meta&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
 
-**Data Engineering & Visualization**
+**Data Engineering and Visualization**
+
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
@@ -106,25 +111,26 @@ FAISS vector store + LLaMA 3.1 for real-time regulatory guidance. Reduces financ
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 
 **Deployment**
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 ---
 
 ## Background
 
-Before data science, I spent 10 years building Indonesia's fintech infrastructure:
+Before data science, I spent 10 years building Indonesia's fintech infrastructure from the regulatory side:
 
-- **BrainTip AI** — AI Strategy Lead, designed a full-stack AI monitoring system for Indonesia's national school nutrition program, validated by UNICEF (2025)
-- **AFTECH (Indonesia Fintech Association)** — Policy Analytics & Research Lead, data-driven research on fintech compliance and personal data protection (2024)
-- **OJK (Indonesia Financial Services Authority)** — Data & Policy Analyst, building data governance frameworks and Scopus-indexed research on digital transformation in financial services (2016–2024)
+- **BrainTip AI** — AI Strategy Lead. Designed a full-stack AI monitoring system for Indonesia's national school nutrition program, secured validation from UNICEF, and facilitated introductions to the World Bank ASEAN Executive Director for grant funding.
+- **AFTECH (Indonesia Fintech Association)** — Policy Analytics and Research Lead. Conducted data-driven research on fintech compliance, contributing to Indonesia's Personal Data Protection guidelines.
+- **OJK (Indonesia Financial Services Authority)** — Data and Policy Analyst for 8 years. Built data governance frameworks, reduced training costs by 50% (~USD 5M) through workforce data analysis, and led Scopus-indexed research on digital transformation in financial services.
 
-That domain depth is what makes my ML work different. I don't just build models — I understand the regulatory, behavioral, and business context behind the data.
+That regulatory and domain depth is what makes my ML work different. I understand the business, the data, and the compliance context behind every model I build.
 
 ---
 
 <div align="center">
 
-📬 **Let's connect** — I'm actively looking for Summer 2026 Data Science internship opportunities in the US.
+📬 Let's connect. I am actively looking for Summer 2026 Data Science internship opportunities in the US.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
 [![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
