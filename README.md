@@ -7,10 +7,12 @@
 M.S. Data Analytics Engineering · Northeastern University, Seattle
 &nbsp;·&nbsp; 10+ years in fintech, financial regulation & AI strategy across Southeast Asia
 
-📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 🟢 **Open to Fall 2026 / Spring 2027 Data Science Internship**
+🟢 **Open to Fall 2026 / Spring 2027 Data Science Internship**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bilsap-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
 [![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
+
+📍 Seattle, WA &nbsp;·&nbsp; 
 
 </div>
 
