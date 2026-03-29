@@ -7,7 +7,7 @@
 M.S. Data Analytics Engineering · Northeastern University, Seattle
 &nbsp;·&nbsp; 10+ years in fintech, financial regulation & AI strategy across Southeast Asia
 
-📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 🟢 **Open to Summer 2026 Data Science Internship**
+📍 Seattle, WA &nbsp;·&nbsp; 📧 saputra.b@northeastern.edu &nbsp;·&nbsp; 🟢 **Open to Fall 2026 / Spring 2027 Data Science Internship**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bilsap-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
 [![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
@@ -112,9 +112,9 @@ FAISS vector store + LLaMA 3.1 for real-time regulatory guidance. Reduces financ
 
 Before data science, I spent 10 years building Indonesia's fintech infrastructure:
 
-- **OJK (Indonesia Financial Services Authority)** — Data & Policy Analyst, building data governance frameworks and Scopus-indexed research on digital transformation in financial services (2016–2024)
-- **AFTECH (Indonesia Fintech Association)** — Policy Analytics & Research Lead, data-driven research on fintech compliance and personal data protection (2024)
 - **BrainTip AI** — AI Strategy Lead, designed a full-stack AI monitoring system for Indonesia's national school nutrition program, validated by UNICEF (2025)
+- **AFTECH (Indonesia Fintech Association)** — Policy Analytics & Research Lead, data-driven research on fintech compliance and personal data protection (2024)
+- **OJK (Indonesia Financial Services Authority)** — Data & Policy Analyst, building data governance frameworks and Scopus-indexed research on digital transformation in financial services (2016–2024)
 
 That domain depth is what makes my ML work different. I don't just build models — I understand the regulatory, behavioral, and business context behind the data.
 
