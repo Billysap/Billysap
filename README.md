@@ -138,9 +138,4 @@ That regulatory and domain depth is what makes my ML work different. I understan
 
 <div align="center">
 
-📬 Let's connect. I am actively looking for Summer 2026 Data Science internship opportunities in the US.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilsap/)
-[![Email](https://img.shields.io/badge/Email-saputra.b%40northeastern.edu-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saputra.b@northeastern.edu)
-
 </div>
