@@ -84,7 +84,6 @@ AI-powered assistant helping Indonesian borrowers verify lender legitimacy again
 `LangChain` `FAISS` `Groq LLaMA` `HuggingFace Sentence Transformers` `Streamlit` `Python`
 
 ---
-
 ## Tech Stack
 
 **Languages**
@@ -97,20 +96,30 @@ AI-powered assistant helping Indonesian borrowers verify lender legitimacy again
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat&logoColor=black)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![BERT](https://img.shields.io/badge/BERT-4285F4?style=flat&logo=google&logoColor=white)
 ![LLaMA](https://img.shields.io/badge/LLaMA-0467DF?style=flat&logo=meta&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logoColor=white)
 
-**Data Engineering and Visualization**
+**Data Engineering and ETL**
 
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlebigquery&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+
+**Cloud**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=black)
+
+**Visualization and Deployment**
+
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-
-**Deployment**
-
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-E8478B?style=flat&logo=kibana&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 ---
